@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+    <meta name="msapplication-TileImage" content="/images/ff.jpg">
+    <meta property="og:site_name" content="Online Notepad">
+    <meta property="og:title" content="Online Notepad">
+    <meta property="og:description" content="A simple online notepad website to write notes in the browser to store the data in the browser cookie using html,css and js">
+    <meta property="og:image" content="images/ff.png">
+    <meta property="og:type" content="website" />
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="300">
+    <meta property="og:image:height" content="300">
+    <meta property="og:url" content="https://github.com/iseshu/online-notepad">
+    <script src="app.js"></script>
+    <title>Online Note Pad</title>
+</head>
+<body onload="domain()">
+    <header>
+        <h>
+            Online Note Pad
+        </h>
+    </header>
+    <textarea id="text" oninput="dotast();">
+</textarea>
+<div class="footer">
+    <div class="sun-footer" onclick="window.open('https://github.com/iseshu/online-notepad', '_blank');">
+        <span>View on Github</span><img src="images/github.png">
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,51 @@
+textarea {
+    height: 84%;
+    width: 100dvw;
+    background-color: aqua;
+    outline: none;
+    margin: auto;
+    font-size: larger;
+    font-weight: 400;
+    resize: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+body {
+    margin: 0%;
+}
+header {
+    height: 8%;
+    background-color: black;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    color: #fff;
+    padding-top: 12px;
+    margin: auto;
+}
+.footer {
+    height: 8%;
+    background-color: black;
+    color: white;
+    margin: auto;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 14px;
+}
+img {
+    margin: auto;
+}
+.sun-footer {
+    cursor: pointer;
+    max-width: auto;
+    max-height: auto;
+}
+.sun-footer:hover {
+    color:red;
+}
+span {
+    margin-right: 2px;
+}
+h {
+    text-shadow: 3px 3px 5px red;
+}
